@@ -19,6 +19,9 @@ android {
         }
     }
     compileSdk 34
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_17
+    }
 }
 
 dependencies {
