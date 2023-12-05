@@ -3,7 +3,10 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
     namespace = "http://schemas.android.com/apk/res/android"
-
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     defaultConfig {
         applicationId "mgarzon.createbest.productcatalog"
         minSdkVersion 15
